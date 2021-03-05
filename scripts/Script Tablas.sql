@@ -7,7 +7,6 @@ create table tipo_identificacion (
 
 );
 comment on table tipo_identificacion is  'Tabla que almacena los diferentes tipo de identificación. Ej: Cedula, Pasaporte, etc';
-
 insert into tipo_identificacion (tipo_identificacion, descripcion) values ('CC', 'Cedula de Ciudadania');
 insert into tipo_identificacion (tipo_identificacion, descripcion) values ('PS', 'Pasaporte');
 insert into tipo_identificacion (tipo_identificacion, descripcion) values ('CC', 'Cedula de Extrangeria');

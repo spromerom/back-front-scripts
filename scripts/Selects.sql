@@ -5,8 +5,14 @@
 		-- Estados de mantenimiento
 	-- Gestión de Empleados (consultas, crear, modificar, eliminar)
 	-- Gestión de Clientes (consultas, crear, modificar, eliminar)
-	-- Gestión de Vehiculos y asociación a clientes
-	-- 
+	-- Gestión de Vehiculos y asociación a clientes (consultas, crear, modificar, eliminar)
+	-- Gestión de Sucursales (consultas, crear, modificar, eliminar)
+	-- Registro de Solicitudes de Mantenimiento
+		-- 	Agregar Fotos de vehiculo
+	--  Gestión de respuestos (consultas, crear, modificar, eliminar)
+	--  Gestión de servicios (consultas, crear, modificar, eliminar)
+	-- Creación de Facturación
+
 
 -- 5.	Consulta de Clientes que han comprado un acumulado $100.000 en los últimos 60 días
    select a.cliente_id
