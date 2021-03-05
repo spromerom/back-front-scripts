@@ -1,0 +1,90 @@
+﻿@model crudClientes.Models.PERSONAS
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PERSONAS</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TIPO_IDENTIFICACION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TIPO_IDENTIFICACION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDENTIFICACION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDENTIFICACION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PRIMER_NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRIMER_NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SEGUNDO_NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SEGUNDO_NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PRIMER_APELLIDO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRIMER_APELLIDO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SEGUNDO_APELLIDO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SEGUNDO_APELLIDO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NUMERO_CELULAR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NUMERO_CELULAR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DIRECCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DIRECCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PERSONA_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
